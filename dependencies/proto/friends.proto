@@ -1,0 +1,48 @@
+option optimize_for = LITE_RUNTIME;
+
+message FriendsSetPresenceMessage
+{
+	repeated FriendsPresence presence = 1;
+}
+
+message FriendsPresence
+{
+	required string key = 1;
+	required string value = 2;
+}
+
+message FriendsGetUserAvatarMessage
+{
+	required int32 guid = 2;
+}
+
+message FriendsGetUserAvatarResultMessage
+{
+	required int32 result = 1;
+	required int32 guid = 2;
+	required bytes fileData = 3;
+}
+
+message FriendsRosterMessage
+{
+	required int32 result = 1;
+	required int32 numResults = 2;
+	repeated FriendDetails friends = 3;
+
+	message FriendDetails {
+
+	    required int32 id = 1;
+	    required string username = 2;
+	    required int32 isonline = 3;
+	    required string game = 4;
+	    required string hostname = 5;
+	    required string current_server = 6;
+   
+   }
+
+}
+
+message FriendsRequestRoster
+{
+	
+}

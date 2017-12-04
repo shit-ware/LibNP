@@ -1,0 +1,2 @@
+cigen.exe genkey
+pause

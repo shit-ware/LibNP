@@ -1,0 +1,40 @@
+﻿Build started 27/12/2014 04:39:42.
+     1>Project "D:\Visual studio projects\repz libnp\libnp\tests\nptest\nptest.vcxproj" on node 3 (Build target(s)).
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"D:\Visual studio projects\repz libnp\libnp\tests\nptest\\..\..\include\\" /I"D:\Visual studio projects\repz libnp\libnp\tests\nptest\\dependencies\include" /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MT /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Normal\\" /Fd"Normal\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt auth.cpp nptest.cpp
+         auth.cpp
+     1>auth.cpp(58): warning C4101: 'btn' : unreferenced local variable
+     1>auth.cpp(80): warning C4996: 'strncat': This function or variable may be unsafe. Consider using strncat_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(186) : see declaration of 'strncat'
+     1>auth.cpp(107): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>auth.cpp(111): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : see declaration of 'strtok'
+     1>auth.cpp(116): warning C4996: 'strtok': This function or variable may be unsafe. Consider using strtok_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(204) : see declaration of 'strtok'
+     1>auth.cpp(132): warning C4996: 'strcpy': This function or variable may be unsafe. Consider using strcpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(112) : see declaration of 'strcpy'
+     1>auth.cpp(133): warning C4996: 'strncpy': This function or variable may be unsafe. Consider using strncpy_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h(195) : see declaration of 'strncpy'
+     1>auth.cpp(152): warning C4996: 'vsprintf': This function or variable may be unsafe. Consider using vsprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(356) : see declaration of 'vsprintf'
+     1>auth.cpp(166): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_snprintf'
+     1>auth.cpp(170): warning C4996: '_snprintf': This function or variable may be unsafe. Consider using _snprintf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdio.h(346) : see declaration of '_snprintf'
+     1>auth.cpp(205): warning C4101: 'wpassword' : unreferenced local variable
+     1>auth.cpp(204): warning C4101: 'wusername' : unreferenced local variable
+         nptest.cpp
+     1>nptest.cpp(120): warning C4101: 'outPacketLen' : unreferenced local variable
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\Visual studio projects\repz libnp\libnp\project\vc\Normal\nptest.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:"D:\Visual studio projects\repz libnp\libnp\tests\nptest\\..\..\project\vc\Normal\\" /LIBPATH:"D:\Visual studio projects\repz libnp\libnp\tests\nptest\\dependencies\lib" libnp.lib libcurl.lib credui.lib ws2_32.lib wldap32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\Visual studio projects\repz libnp\libnp\project\vc\Normal\nptest.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\Visual studio projects\repz libnp\libnp\project\vc\Normal\nptest.lib" /MACHINE:X86 /SAFESEH Normal\auth.obj
+         Normal\nptest.obj
+         "D:\Visual studio projects\repz libnp\libnp\project\vc\Normal\libnp.lib"
+         Generating code
+         Finished generating code
+         nptest.vcxproj -> D:\Visual studio projects\repz libnp\libnp\project\vc\Normal\nptest.exe
+     1>Done Building Project "D:\Visual studio projects\repz libnp\libnp\tests\nptest\nptest.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.87

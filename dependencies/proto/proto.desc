@@ -1,0 +1,140 @@
+
+˜
+
+auth.proto"0
+AuthenticateWithKeyMessage
+
+licenseKey (	"D
+AuthenticateWithDetailsMessage
+username (	
+password (	"-
+AuthenticateWithTokenMessage
+token ("O
+AuthenticateResultMessage
+result (
+npid (
+sessionToken ("/
+AuthenticateUserGroupMessage
+groupID ("a
+!AuthenticateValidateTicketMessage
+clientIP (
+npid (
+ticket (
+name (	"X
+'AuthenticateValidateTicketResultMessage
+result (
+npid (
+groupID ("Q
+AuthenticateKickUserMessage
+npid (
+reason (
+reasonString (	"3
+!AuthenticateExternalStatusMessage
+status ("7
+!AuthenticateRegisterServerMessage
+
+configPath (	"_
+'AuthenticateRegisterServerResultMessage
+result (
+
+licenseKey (	
+serverID (BH
+‰
+friends.proto"?
+FriendsSetPresenceMessage"
+presence (2.FriendsPresence"-
+FriendsPresence
+key (	
+value (	"+
+FriendsGetUserAvatarMessage
+guid ("S
+!FriendsGetUserAvatarResultMessage
+result (
+guid (
+fileData ("é
+FriendsRosterMessage
+result (
+
+numResults (4
+friends (2#.FriendsRosterMessage.FriendDetailsw
+FriendDetails
+
+id (
+username (	
+isonline (
+game (	
+hostname (	
+current_server (	"
+FriendsRequestRosterBH
+º
+hello.proto"L
+HelloMessage
+number (
+number2 (
+name (	
+stuff (	"!
+CloseAppMessage
+reason (	"6
+MessagingSendDataMessage
+npid (
+data (BH
+¯
+servers.proto"“
+SessionInfo
+address (
+port (
+npid (
+hostname (	
+mapname (	
+players (
+
+maxplayers (
+version ("9
+ServersCreateSessionMessage
+info (2.SessionInfo"F
+!ServersCreateSessionResultMessage
+result (
+	sessionid (")
+ServersGetSessionsMessage
+tags (	"@
+ServersGetSessionsResultMessage
+servers (2.SessionInfo"x
+ServersUpdateSessionMessage
+	sessionid (
+hostname (	
+mapname (	
+players (
+
+maxplayers ("3
+!ServersUpdateSessionResultMessage
+result ("0
+ServersDeleteSessionMessage
+	sessionid ("3
+!ServersDeleteSessionResultMessage
+result (BH
+‘
+storage.proto"2
+StorageGetPublisherFileMessage
+fileName (	"Q
+StoragePublisherFileMessage
+result (
+fileName (	
+fileData (";
+StorageGetUserFileMessage
+fileName (	
+npid ("Z
+StorageUserFileMessage
+result (
+fileName (	
+npid (
+fileData ("O
+StorageWriteUserFileMessage
+fileName (	
+npid (
+fileData ("S
+!StorageWriteUserFileResultMessage
+result (
+fileName (	
+npid ("6
+StorageSendRandomStringMessage
+randomString (	BH
